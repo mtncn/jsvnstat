@@ -1,0 +1,151 @@
+* {padding: 0; margin: 0; outline: 0;}
+
+body {
+	font-family: Lucidatypewriter, monospace;
+	font-size: 14px;
+	margin: 0 auto;
+	width: 800px;
+}
+
+#content { 
+	float: left;
+	color: #333;
+	border: 3px solid #d1f899;
+	width: 700px;
+	display: inline;
+}
+
+#header {
+	color: #333;
+	width: 400px;
+	height: 30px;
+	padding: 2px 0px 10px 375px;
+	float: left;
+}
+
+#footer { 
+	font-size: 9px;
+	width: 700px;
+	height: 20px;
+	padding: 5px 0px 0px 90px;
+	clear: both;
+	color: #333;
+	text-align: center;
+}
+
+#leftcolumn {
+	font-size: 11px;
+	color: #333;
+	width: 90px;
+	float: left;
+	padding-top: 5px;
+}
+
+#placeholder {
+	width:695px;
+	height:300px;
+	margin: 5px 0 0 5px;
+}
+
+#tooltip {
+	position: absolute;
+	display: none;
+	padding: 2px;
+	opacity: 0.80;
+	color: #2D2D2D;
+	border: 1px solid #c2e78c;
+	background-color: #d1f899;
+}
+
+a:link {
+	color: #333;
+	text-decoration: none;
+	border-bottom:2px dotted #d1f899;
+}
+a:visited {
+	color: #979797;
+	text-decoration: none;
+	border-bottom:2px dotted #d1f899;
+}
+a:hover, a:active {
+	color: #979797;
+	background: #d1f899;
+	text-decoration: none;
+}
+
+abbr {
+	border-bottom: none;
+	cursor: help;
+}
+
+table.graph {
+	font-size: 11px;
+	width: 700px;
+	text-align: right;
+}
+
+table.graph thead tr {
+	background: #d1f899;
+	text-align: center;
+	font-weight: bold;
+}
+
+table.graph tr.odd {
+	background: #F3F8EC;
+}
+
+table.graph tbody tr.highlight, table.graph tbody tr:hover {
+	background: #d1f899;
+}
+
+table.graph td.time {
+	text-align: left;
+}
+
+label {
+	font-size: 16px;
+	padding: 5px;
+}
+
+label.radio_checked {
+	background: #d1f899;
+	color: #7a9751;
+}
+
+label.radio_unchecked  {
+	background: #eee;
+	color: #979797;
+	cursor: pointer;
+}
+
+label.radio_unchecked:hover {
+	background: #e4e4e4;
+}
+
+#types label {
+	font-size: 9px;
+	padding-right: 6px;
+}
+
+select {
+	border: 0;
+	width: 85px;
+	height: 25px;
+	font-size: 16px;
+	color: #979797;
+	margin-top: 3px;
+}
+
+p.warning {
+	color: #f00;
+	font-weight: bold;
+}
+
+/* do not edit! (needed for tabs)*/
+.crirHidden {
+	position: absolute;
+	left: -1000px;
+}
+.legendLabel {
+	padding-left: 1px;
+}

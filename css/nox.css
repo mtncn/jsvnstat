@@ -1,0 +1,166 @@
+* {padding: 0; margin: 0; outline: 0;}
+
+body {
+	font-family: Lucidatypewriter, monospace;
+	font-size: 14px;
+	margin: 0 auto;
+	width: 800px;
+	background: #2D2D2D;
+	color: #C0C0C0;
+}
+
+#content { 
+	float: left;
+	border: 3px solid #808080;
+	width: 700px;
+	display: inline;
+	background: #373737;
+}
+
+#header {
+	color: #C0C0C0;
+	width: 400px;
+	height: 30px;
+	padding: 2px 0px 10px 375px;
+	float: left;
+}
+
+#footer { 
+	font-size: 9px;
+	width: 700px;
+	height: 20px;
+	padding: 5px 0px 0px 90px;
+	clear: both;
+	color: #C0C0C0;
+	text-align: center;
+}
+
+#leftcolumn {
+	font-size: 11px;
+	color: #C0C0C0;
+	width: 90px;
+	float: left;
+	padding-top: 5px;
+}
+
+#placeholder {
+	width:695px;
+	height:300px;
+	margin: 5px 0 0 5px;
+}
+
+#tooltip {
+	position: absolute;
+	display: none;
+	padding: 2px;
+	opacity: 0.80;
+	color: #2D2D2D;
+	border: 1px solid #2D2D2D;
+	background-color: #E5E5E5;
+}
+
+a:link {
+	color: #C0C0C0;
+	text-decoration: none;
+	border-bottom:1px dotted #E5E5E5;
+}
+a:visited {
+	color: #ddd;
+	text-decoration: none;
+	border-bottom:1px dotted #E5E5E5;
+}
+a:hover, a:active {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+abbr {
+	border-bottom: none;
+	cursor: help;
+}
+
+table.graph {
+	font-size: 11px;
+	width: 700px;
+	text-align: right;
+	color: #C0C0C0;
+}
+
+table.graph thead tr {
+	background: #414141;
+	text-align: center;
+	font-weight: bold;
+}
+
+table.graph tr.odd {
+	background: #414141;
+}
+
+table.graph tbody tr.highlight, table.graph tbody tr:hover {
+	color: #2D2D2D;
+	background-color: #C2C2C2;
+}
+
+table.graph td.time {
+	text-align: left;
+}
+
+label {
+	font-size: 16px;
+	padding: 5px;
+}
+
+label.radio_checked {
+	background: #808080;
+	color: #f2f2f2;
+}
+
+label.radio_unchecked  {
+	background: #373737;
+	color: #C0C0C0;
+	cursor: pointer;
+}
+
+label.radio_unchecked:hover {
+	color: #f2f2f2;
+}
+
+#types label {
+	font-size: 9px;
+	padding-right: 6px;
+}
+
+select {
+	border: 0;
+	width: 85px;
+	height: 25px;
+	font-size: 16px;
+	color: #C0C0C0;
+	background: #373737;
+	margin-top: 3px;
+}
+
+.legend table {
+	background: #808080;
+}
+.legend table tr {
+	color: #f2f2f2;
+}
+
+p.warning {
+	color: #f00;
+	font-weight: bold;
+}
+
+div.tickLabel {
+	color: #ddd;
+}
+
+/* do not edit! (needed for tabs)*/
+.crirHidden {
+	position: absolute;
+	left: -1000px;
+}
+.legendLabel {
+	padding-left: 1px;
+}
